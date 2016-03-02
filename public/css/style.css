@@ -1,0 +1,47 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-fixed-top .navbar-inner {
+	padding-left: 20px;
+}
+
+#connect-form {
+	padding: 5px 10px;
+}
+#connect-form .control-group {
+	margin-bottom: 10px;
+}
+#connect-form .control-label {
+	width: 80px;
+}
+#connect-form .controls {
+	margin-left: 100px;
+}
+
+#tab-content {
+	height: calc(100% - 100px);
+	width: 100%;
+	padding-top: 40px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: Helvetica Neue,Helvetica,sans-serif;;
+	font-size: 12px;
+}
+.messages {
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+	margin: 0;
+}
+.messages>li {
+	padding: 1px 0;
+}
+
+.option {
+	float: left;
+	width: 500px;
+	height: 40px;
+	border: 5px solid red;
+}

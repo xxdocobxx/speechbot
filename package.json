@@ -1,0 +1,18 @@
+{
+	"name": "talkchat",
+	"version": "0.0.1",
+	"author": "xxdocobxx",
+	"description": "Twitch Chat Talking Bot.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xxdocobxx/speechbot"
+	},
+	"dependencies": {
+		"irc": "0.3.x",
+		"node-static": "0.6.x",
+		"socket.io": "0.9.x"
+	},
+	"engine": {
+		"node": ">=0.8"
+	}
+}
